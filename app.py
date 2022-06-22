@@ -8,13 +8,13 @@ import plotly.express as px
 
 
 #Muestra el titulo 
-st.title ("análisis de sentimiento de tweet sobre o aerolíneas")
+st.title ("análisis de sentimiento de tweet sobre aerolíneas Estadounidenses")
 # Muestra un titulo en la barra lateral
-st.sidebar.title("análisis de sentimiento de tweet sobre o aerolíneas")
+st.sidebar.title("análisis de sentimiento de tweet sobre aerolíneas Estadounidenses")
 #subtitulo en el panel
 st.markdown ("dashboard")
 #subtitulo en la barra lateral
-st.sidebar.markdown("análisis de sentimiento de tweet sobre o aerolíneas")
+st.sidebar.markdown("análisis de sentimiento de tweet sobre aerolíneas Estadounidenses")
 
 #Funcion que permite leer la base de datos.
 def load_data():
